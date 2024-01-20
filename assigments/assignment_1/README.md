@@ -11,3 +11,6 @@ a digital journal. It would require a few things to work:
 - Home page displaying basic information and latest posts
 - Page restricted to only me (password protected?) for creating posts
 - Sorted pages displaying only posts of the same genre
+
+## Important note
+Blog_home is where to start
