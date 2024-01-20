@@ -15,7 +15,7 @@ https://www.imdb.com/
 
 Right off the bat I got frustrated when as I scrolled down, an ad followed me, obscuring nearly half the screen, but disappeared by itself shortly after.
 I understand the necessity for ads, but there must be a less frustrating way to advertize.
-Improvement: Shrink down the ad and make it easier to get rid of
+Improvement: Shrink down the ad and make it easier to get rid of.
 
 ### 3. Cool Math Games (Yes, this site is still going.)
 
