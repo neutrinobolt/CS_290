@@ -1,0 +1,20 @@
+<ol></ol> = ordered list
+<li> = list item
+Each item in an ordered list displays with numbers in ordered
+
+<ul> = unordered list
+items displayed in bulleted list
+
+<h1-6> = Header, number = header size
+<p> = paragraph
+
+<dl> = data definition list
+    dont use li for list item
+
+    <dt> = data term 
+    <dd> = data definition
+        every dd is listed as tabbed under dt, extra formatting must be added
+
+<br> = line break, no close tag needed
+<a> = anchor, only used for hyperlinks
+    <a href="hyperlink">hyperlink text</a>
