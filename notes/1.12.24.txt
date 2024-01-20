@@ -17,4 +17,4 @@ items displayed in bulleted list
 
 <br> = line break, no close tag needed
 <a> = anchor, only used for hyperlinks
-    <a href="hyperlink">hyperlink text</a>
+    <a href="hyperlink"> hyperlink text </a>
