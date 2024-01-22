@@ -1,0 +1,16 @@
+CSS
+    Background Image
+    Syntax:
+        body {
+            background-image: url("[image_link]"); [choose image]
+            background-repeat: [set the way image repeats]
+        }
+    
+    !important:
+        Adds more importance to a property than normal
+        Stick it onto the end of a property
+        Overrides any other definitions
+        DO NOT USE
+
+    Float: stick something somewhere on page
+    Clear: Empty space to side of object of floated items

@@ -1,0 +1,27 @@
+Images
+<img src = [image hyperlink] alt = "[text to display if image can't load properly]">
+No end needed
+
+Tables
+
+    <table>
+        <tr> [table row (vertical)]
+            <th> [table head] (Goes above respective column)
+            </th>
+            <td colspan/rowspan = [int] [makes data cell that many columns wide/long. Optional]> [table data cell]
+            </td>
+        </tr>
+        <caption>
+        [Text for caption (goes above table)]
+        </caption>
+    </table>
+
+Style: Embed CSS rules in a HTML elem. 
+Goes in Head
+Must be closed
+
+    <style>
+    [Item to embed ruleset] {
+        [ruleset];
+    } (Don't forget the semicolon afterwards!)
+    </style>
