@@ -1,0 +1,43 @@
+class: HTML
+    Give all things with this class name the same properties 
+
+fit-content:
+    function to size an object to percentages
+
+Overflow:
+    content cannot fit in size conditions of container, content will spill out
+    Options:
+        - auto
+            give vertical scroll bar, horizontal if words are too long
+        -hidden
+            content clipped
+        -scroll
+            content clipped but not scrollable
+        -visible
+        - -moz-hidden-unscrollable
+        -calc
+        -inherit
+        -initial
+
+box sizing:
+    Border-box  
+        width and height change total border width
+        
+Position
+    def: affects where element shows up
+    absolute
+        moves element given amount from given points, relative to page
+    fixed
+        "                                           " relative to view port, stuck to page
+    relative
+        position calculated based on normal flow, respects given offsets after
+    static
+        any position modifiers ignored
+    sticky
+        Renders in normal view until you reach object's offset, then object sticks to view
+
+z-index
+    Layers in and out from screen (3d-ish)
+    It's weird... Position setting can mess this up
+    higher number = closer to front
+

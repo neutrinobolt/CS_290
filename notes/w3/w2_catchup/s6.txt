@@ -1,0 +1,15 @@
+CSS
+Connect HTML file to CSS file w/ style rules:
+    In Head:
+        <link rel = "stylesheet"  href = "filename.type">
+
+Styling:
+    Selector {
+        ruleset
+        setting: rule;
+    }
+
+font-family:
+    Start with font you want, generalize
+
+vidreturn: 40:00
