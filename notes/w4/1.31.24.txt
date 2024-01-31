@@ -1,0 +1,55 @@
+Scrollbar changes:
+    scroll-color
+    scrollbar-width
+    scroll-timeline
+
+Creating custom properties in css:
+    html {
+        --property-name: property;
+    }
+
+
+
+Layout
+
+    text-shadow: topsize bottomsize color;
+        Create shadow around text
+    box-shadow: topsize rightsize bottomsize leftsize color;
+        Create shadow around object, make object look up above rest of page
+
+    Animations
+        animation-name: name
+        animation-duration: timevalue (How long one iteration lasts)
+        animation-iteration-count: number (How many iterations. allows infinite)
+        @keyframes name {
+            number% {othersettings; left:distange; top:distance;}
+            number% {othersettings; left:distange; top:distance;}
+        }
+    
+    transitions
+        transition
+        
+    tooltips
+        Automatically invisible unless object it's connected to is hovered over
+
+    Counters
+        counter-reset
+        counter-increment
+        content
+        counter-
+
+    media queries
+        @media screen
+            Apply these attributes only when viewing on a screen
+            @media can also be used to check screen size to resize stuff for mobile
+            vs. PC
+            Always design for mobile first
+                Easier to add things than remove
+    
+
+Design
+
+Navigation
+    Nav bars
+        list of links. that simple
+        

@@ -9,7 +9,93 @@ Styling:
         setting: rule;
     }
 
-font-family:
-    Start with font you want, generalize
+font
+    font-family:
+        select font for text
+        Start with font you want, generalize
+    font-style:
+        for using italics
+        ex. "font-style: italic"
+    font-weight:
+        for boldness
+        ex. "font-weight: bold"
+    font-variant:
+        small caps
+        ex. "font-variant: small-caps"
 
-vidreturn: 40:00
+Border
+    border-width:
+        Set border widths
+        1 input = all borders
+        2 inputs = top-bottom, left-right
+        3 inputs = top, left-right, bottom
+        4 inputs = top, right, bottom, left
+        Think clockwise
+    border-color
+        set border color
+        can specify sides:
+            border-top-color, border-bottom-color, etc
+        LAST RULE TO APPLY TAKES PRECEDENCE
+
+Padding
+    Space between content(text or image) and border
+
+Margin space between object and other object
+    margins overlap: largest Margin is full space btwn objects
+
+Classes
+    Can be defined on an html object (div, p, etc.)
+    All objects of same class receive same css specifications
+    in css, start class specifications with ".", eg. ".class{}"
+
+Id's 
+    Similar to classes, but supposed to only be used on one object
+    specifiacations start with #
+
+Background
+    affects background of content space
+
+css selectors
+    affect all classes of an element type:
+    - p.class
+    affect two different elem types:
+    - div, P
+    affect all of one type of element found inside another type of element:
+    div p (All paragraphs inside a div)
+
+    setting rules for when effects take place:
+        a: link
+            site hasn't been visited recently
+        a: visited
+            site has been visited recently
+        a: hover
+            mouse is over the link
+        a: active
+            link is actively being clicked
+        
+        as always, ORDER MATTERS
+        stuff like hover and active work on objects like paragraphs
+
+    :nth-child(n)
+        select all child objects that are child n of parent
+        n can be a number, or odd or even
+    
+    :selection
+        changes highlighted objects
+        can change background-color and color
+
+Semantic web elems: newer html5 stuff
+    For dividing instead of using div
+    header
+    nav
+        nav bar
+    main
+        main body
+    section
+        sections, such as book chapters
+    article
+        Main article
+    aside
+        aside to an article
+    footer
+        page footer
