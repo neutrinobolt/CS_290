@@ -1,0 +1,59 @@
+
+/* Base layout for all pages*/
+/*Note: colors and aesthetic styling not considered yet. 
+Colors currently used to show different elems*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+div {
+    background-color: green;
+    border-color: plum;
+    border-style: solid;
+    border-width: 5px;
+    margin: 5px;
+    width:fit-content;
+}
+
+/*navbar style*/
+.navbar {
+    background-color: rgb(10, 180, 10);
+}
+
+a {
+    display: block;
+    color: blue;
+    border-width: 1px;
+    border-color: black;
+    width: 100%;
+    border-style:solid;
+    background-color: orange;
+}
+
+a.self_ref {
+    background-color: rgb(255, 102, 0);
+}
+
+/*homepage styles*/
+.head {
+    width: 648px;
+    height: 400px;
+    background-image: url("george_picture.jpg");
+}
+
+#banner{
+    text-decoration: underline;
+    font-size: 19pt;
+    font-family: "Comic Sans MS", Comic, sans-serif;
+    color: yellow;
+}
+
+.subbanner{
+    text-decoration: underline;
+    font-size: large;
+    color: #bdd122;
+}
+
+/*article page styles*/
