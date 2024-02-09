@@ -38,7 +38,7 @@ a.self_ref {
 
 /*homepage styles*/
 .head {
-    width: 648px;
+    width: 100%;
     height: 400px;
     background-image: url("george_picture.jpg");
 }
@@ -54,6 +54,22 @@ a.self_ref {
     text-decoration: underline;
     font-size: large;
     color: #bdd122;
+}
+
+.segment{
+    width: 75%
+}
+
+.article{
+    background-color: purple;
+}
+
+.title{
+    font-size: 15pt;
+}
+
+.date{
+    font-size: 8pt;
 }
 
 /*article page styles*/
