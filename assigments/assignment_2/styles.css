@@ -25,10 +25,7 @@ div {
 a {
     display: block;
     color: blue;
-    border-width: 1px;
-    border-color: black;
     width: 100%;
-    border-style:solid;
     background-color: orange;
 }
 
@@ -60,7 +57,7 @@ a.self_ref {
     width: 75%
 }
 
-.article{
+.post{
     background-color: purple;
 }
 
@@ -73,3 +70,8 @@ a.self_ref {
 }
 
 /*article page styles*/
+
+.post_article{
+    width: 75%;
+    color: white;
+}
