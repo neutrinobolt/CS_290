@@ -1,0 +1,16 @@
+JS
+Variable declarations
+    let varName = var
+
+arrays
+    let arrName = [item, item, item,...]
+    Dynamic size
+    Mixed data types
+    zero-based index
+    Length property
+        shows length of array
+    Sparse arrays
+        Arrays can have empty spaces between elems
+    Mutability
+        Elements are mutable
+    
