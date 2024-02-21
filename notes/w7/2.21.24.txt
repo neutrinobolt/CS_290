@@ -1,0 +1,28 @@
+server-side programming
+
+Computer network
+    multiple Computers connected to share data/resources
+
+    OSI model:
+        Physical Layer
+            Raw data stream, wires
+        Data Link Layer
+            Format of data on network
+        Network Layer   
+            Physical path data takes
+        Transport Layer
+            Transmitting data
+        Session Layer
+            Maintains connections and controls ports
+        Presentation Layer
+            Formats data, data encryption, makes it visible
+        Application Layer
+            Human-computer interaction
+    
+    Internet Protocol (IP)
+        Network Layer communication Protocol
+
+    DNS (Domain Name System) Servers
+        Lookup table, contains IP addresses
+
+    
