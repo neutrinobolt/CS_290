@@ -2,6 +2,7 @@
 /* Base layout for all pages*/
 /*Note: colors and aesthetic styling not considered yet. 
 Colors currently used to show different elems*/
+/* Base layout with mobile in mind. See media queries for PC adjustments */
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
@@ -27,7 +28,6 @@ ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: orangered;
     display: inline;
   }
 
@@ -54,14 +54,15 @@ a:hover {
 /* Breadcrumb styles */
 
 .breadcrumb {
+    background-color: rgb(10, 180, 10);
     float: right;
     display: inline;
 }
 
 .crumbbtn {
-    background-color: rgb(245, 129, 87);
+    background-color: rgb(10, 180, 10);
     border: none;
-    padding-block: 2px;
+    height: 20px;
 }
 
 .breadcrumbs {
@@ -69,6 +70,14 @@ a:hover {
     position: absolute;
     z-index: 1;
     right: 0;
+}
+
+.breadcrumb:hover {
+    background-color: rgb(207, 58, 4);
+}
+
+.breadcrumb:hover .crumbbtn {
+    background-color: rgb(207, 58, 4);
 }
 
 .breadcrumb:hover .breadcrumbs {
@@ -111,6 +120,10 @@ a:hover {
     font-size: 15pt;
 }
 
+.title a {
+    text-decoration: underline;
+}
+
 .date{
     font-size: 8pt;
 }
@@ -123,11 +136,27 @@ a:hover {
 }
 
 @media screen and (min-width: 600px) {
-    /* for phone screens */
+    /* for computer screens */
 
     /* Change text size */
+    body {
+        font-size: 25pt;
+    }
 
+    .banner {
+        font-size: 40pt;
+    }
 
+    .subbanner {
+        font-size: 15pt;
+    }
 
+    .title {
+        font-size: 25pt;
+    }
+
+    .date {
+        font-size: 15pt;
+    }
 
 }
