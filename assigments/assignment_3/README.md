@@ -1,5 +1,7 @@
 # Assignment 3: More Advanced HTML and CSS
 
+- Last Updated 2/26/24
+
 ## Plan
 
 Now I will be implementing some more things to my website to make it cleaner and smoother.
@@ -35,3 +37,12 @@ menu mobile, left side on bigger
 to decrease number of files required
 
 - If I'm REALLY jonesing for something to do, make Spanish translations of some major pages
+
+## End Results
+
+With some work I was able to get all items in the To Add section added. I added
+some basic media queries just to change the text size to be bigger in a PC view,
+I updated the navbar to be horizontal and to also contain breadcrumbs that appear when hovered over.
+I also updated the category list but didn't take the time to write more entries. Then finally
+I updated the home page so that posts apppear next to each other to save space
+and look better.
