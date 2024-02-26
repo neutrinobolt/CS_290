@@ -108,8 +108,18 @@ a:hover {
     color: #bdd122;
 }
 
+.recents {
+    background-color: black;
+    display: flex;
+}
+
 .segment{
     width: 75%
+}
+
+.article {
+    margin-right: 30px;
+    box-shadow: 5px, 5px, 3px, white;
 }
 
 .post{
@@ -157,6 +167,10 @@ a:hover {
 
     .date {
         font-size: 15pt;
+    }
+    
+    .article {
+        width: 250pt;
     }
 
 }
