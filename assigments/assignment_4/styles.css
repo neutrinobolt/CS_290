@@ -1,0 +1,176 @@
+
+/* Base layout for all pages*/
+/*Note: colors and aesthetic styling not considered yet. 
+Colors currently used to show different elems*/
+/* Base layout with mobile in mind. See media queries for PC adjustments */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+div {
+    background-color: green;
+}
+
+/*navbar style*/
+
+.navbar {
+    background-color: rgb(10, 180, 10);
+    position:sticky;
+    top: 0;
+    width: 100%;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline;
+  }
+
+li {
+    display: inline;
+    width: 100%;
+    padding: 10px;
+}
+
+a {
+    display: inline;
+    width: 100%;
+    text-decoration: none;
+}
+
+a.self_ref {
+    background-color: rgb(207, 58, 4);
+}
+
+a:hover {
+    background-color: rgb(207, 58, 4);
+}
+
+/* Breadcrumb styles */
+
+.breadcrumb {
+    background-color: rgb(10, 180, 10);
+    float: right;
+    display: inline;
+}
+
+.crumbbtn {
+    background-color: rgb(10, 180, 10);
+    border: none;
+    height: 20px;
+}
+
+.breadcrumbs {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+.breadcrumb:hover {
+    background-color: rgb(207, 58, 4);
+}
+
+.breadcrumb:hover .crumbbtn {
+    background-color: rgb(207, 58, 4);
+}
+
+.breadcrumb:hover .breadcrumbs {
+    display:block;
+}
+
+.breadcrumbs a {
+    display: block;
+}
+
+/*homepage styles*/
+.head {
+    width: 100%;
+    height: 400px;
+    background-image: url("george_picture.jpg");
+}
+
+.banner{
+    text-decoration: underline;
+    font-size: 19pt;
+    font-family: "Comic Sans MS", Comic, sans-serif;
+    color: yellow;
+}
+
+.subbanner{
+    text-decoration: underline;
+    font-size: large;
+    color: #bdd122;
+}
+
+.recents {
+    background-color: black;
+    display: flex;
+}
+
+.segment{
+    width: 75%
+}
+
+.article {
+    margin-right: 30px;
+    box-shadow: 5px, 5px, 3px, white;
+}
+
+.post{
+    background-color: purple;
+}
+
+.title{
+    font-size: 15pt;
+}
+
+.title a {
+    text-decoration: underline;
+}
+
+.date{
+    font-size: 8pt;
+}
+
+/*article page styles*/
+
+.post_article{
+    width: 75%;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    /* for computer screens */
+
+    /* Change text size */
+    body {
+        font-size: 25pt;
+    }
+
+    .banner {
+        font-size: 40pt;
+    }
+
+    .subbanner {
+        font-size: 15pt;
+    }
+
+    .title {
+        font-size: 25pt;
+    }
+
+    .date {
+        font-size: 15pt;
+    }
+    
+    .article {
+        width: 250pt;
+    }
+
+}
