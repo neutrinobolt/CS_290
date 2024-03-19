@@ -23,7 +23,7 @@ div {
     
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ ul {
     display: inline;
   }
 
-li {
+.navbar li {
     display: inline;
     width: 100%;
     padding: 10px;
@@ -136,6 +136,16 @@ a:hover {
 
 .date{
     font-size: 8pt;
+}
+
+/* Comment section */
+
+#comsect {
+    display: block;
+}
+
+#comsect li {
+    display: block;
 }
 
 /*article page styles*/

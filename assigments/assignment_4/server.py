@@ -1,12 +1,12 @@
-#!python
+#!usr/bin/python
+"""Module for creating a basic python server."""
 
 import http.server
-import socketserver
 
 PORT = 8000
-handler = http.server.CGIHTTPRequestHandler
+Handler = http.server.CGIHTTPRequestHandler
 
-with http.server.HTTPServer(("", PORT), handler) as httpd:
+with http.server.HTTPServer(("", PORT), Handler) as httpd:
     print(f"Server starting on port {PORT}")
     httpd.serve_forever()
     
